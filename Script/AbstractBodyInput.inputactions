@@ -1,0 +1,1114 @@
+{
+    "name": "AbstractBodyInput",
+    "maps": [
+        {
+            "name": "RightHandWorldSpace",
+            "id": "09033425-c946-47ac-a3d0-a01885462d4a",
+            "actions": [
+                {
+                    "name": "PinkyTip",
+                    "type": "PassThrough",
+                    "id": "1a370109-012e-4469-91f4-28cb9885aecc",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "PinkyStart",
+                    "type": "PassThrough",
+                    "id": "5e6180d2-1e75-44ff-8fd4-36eda784a286",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RingTip",
+                    "type": "Value",
+                    "id": "f0a68e52-de53-48dc-816a-f4a49e905b1a",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RingStart",
+                    "type": "Value",
+                    "id": "10a22602-da40-4dbd-866c-0b798e433fbb",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "MiddleTip",
+                    "type": "Value",
+                    "id": "0334702c-14ad-48b4-b4ae-c4b05c94d575",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "MiddleStart",
+                    "type": "Value",
+                    "id": "1e16c6d9-e197-4727-95f2-6e9d1a33142c",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "IndexTip",
+                    "type": "Value",
+                    "id": "09bd460d-b5f2-4e43-8f6d-228903f71ed0",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "IndexStart",
+                    "type": "Value",
+                    "id": "faceefc8-3fe9-40ee-bcff-bd83411354f8",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ThumbTip",
+                    "type": "Value",
+                    "id": "336cf023-ef79-4bdb-8bd4-0b58268cf352",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ThumbStart",
+                    "type": "Value",
+                    "id": "d3f5f660-0bc2-4cfa-84ed-9d2c1ab979bf",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "WristAtThumbSide",
+                    "type": "Value",
+                    "id": "7f858682-d3b5-4447-a7e5-2bb3922be778",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "WristAtPinkySide",
+                    "type": "Value",
+                    "id": "d7c9909a-69ed-4058-9c31-6dced41a8888",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ArmAtPinkyElbowSide",
+                    "type": "Value",
+                    "id": "bdb16b7b-7017-494d-9dd5-895c7c128cb4",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ArmAtThumbElbowSide",
+                    "type": "Value",
+                    "id": "72ba2ec3-1c5d-4982-9185-893b72c85f6a",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "988b1a69-0240-462f-80b5-35cb714bef33",
+                    "path": "<FakeTrackedHandDeviceRight>/indexTip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "PinkyTip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ca21313f-57fe-4f6b-82cb-63b61b6fc789",
+                    "path": "<FakeTrackedHandDevice>/rightRingTip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "RingTip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5df08d44-3395-4d6c-b041-77cd6b4e6210",
+                    "path": "<FakeTrackedHandDevice>/rightMiddleTip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "MiddleTip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b2482fe5-e0fe-42c4-8daf-d485efbc9866",
+                    "path": "<FakeTrackedHandDevice>/rightIndexTip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "IndexTip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a40873a3-6976-4051-8702-7152d1c50930",
+                    "path": "<FakeTrackedHandDevice>/rightThumbTip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "ThumbTip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c815ebd7-c98a-4183-9641-a262999e60bd",
+                    "path": "<FakeTrackedHandDeviceRight>/pinkyStart",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "PinkyStart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9173c70e-c95d-4cdc-b2df-ad473bc30d9a",
+                    "path": "<FakeTrackedHandDevice>/rightRingStart",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "RingStart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "29d1ea79-9084-4992-808f-a77ac855228e",
+                    "path": "<FakeTrackedHandDevice>/rightMiddleStart",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "MiddleStart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a2ae0f66-4c47-4300-8021-6f6451e65215",
+                    "path": "<FakeTrackedHandDevice>/rightIndexStart",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "IndexStart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c9a7facf-f4a8-40fe-abc9-4c010663d2d8",
+                    "path": "<FakeTrackedHandDevice>/rightThumbStart",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "ThumbStart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b91a76b9-b204-40f4-851f-94052fd4f67d",
+                    "path": "<FakeTrackedHandDevice>/rightWristAtThumbSide",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "WristAtThumbSide",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "36a4ddfb-e632-45ee-a176-eb135129c436",
+                    "path": "<FakeTrackedHandDevice>/rightWristAtPinkySide",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "WristAtPinkySide",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f112ee0b-deac-4ffa-bbf1-e4b1ff8959bb",
+                    "path": "<FakeTrackedHandDevice>/rightArmAtPinkyElbowSide",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "ArmAtPinkyElbowSide",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "289d1626-5734-4f4e-b20a-5dc6b2d2e20e",
+                    "path": "<FakeTrackedHandDevice>/rightArmAtThumbElbowSide",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "ArmAtThumbElbowSide",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "LeftHandWorldSpace",
+            "id": "4a66a0f3-0daa-44a8-a711-c412147f6ac4",
+            "actions": [
+                {
+                    "name": "PinkyTip",
+                    "type": "PassThrough",
+                    "id": "20346a9e-06df-48fd-8fc3-f4715668f755",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "PinkyStart",
+                    "type": "PassThrough",
+                    "id": "e0a99808-4f8a-4932-971b-c4f34e947238",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RingTip",
+                    "type": "Value",
+                    "id": "1007aa59-b86b-4bf9-8aff-1a3816340dc5",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RingStart",
+                    "type": "Value",
+                    "id": "a9e1dd7d-4f9e-4f4f-9913-06cc1c41d30a",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "MiddleTip",
+                    "type": "Value",
+                    "id": "0b0f5669-2404-45ed-8681-8d8bbe23f299",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "MiddleStart",
+                    "type": "Value",
+                    "id": "fff4e54c-e9ef-4904-be54-4735341c0184",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "IndexTip",
+                    "type": "Value",
+                    "id": "6821989c-a8c8-4b57-9713-0d1cf38351db",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "IndexStart",
+                    "type": "Value",
+                    "id": "801b3767-3a77-49ec-9e30-cb1b9f7250ba",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ThumbTip",
+                    "type": "Value",
+                    "id": "ed37b02f-d70e-4dfc-9a9f-642f114f08ae",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ThumbStart",
+                    "type": "Value",
+                    "id": "68b1027f-f660-49d9-9cf6-26473fcc09ce",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "WristAtThumbSide",
+                    "type": "Value",
+                    "id": "81be5628-2981-4f72-93eb-282e5b7de83c",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "WristAtPinkySide",
+                    "type": "Value",
+                    "id": "2c63f864-519d-4577-8b0a-9e1e43a3bf85",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ArmAtPinkyElbowSide",
+                    "type": "Value",
+                    "id": "bf72b906-d1f8-4639-a377-f344f3da6372",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ArmAtThumbElbowySide",
+                    "type": "Value",
+                    "id": "13a3ac66-6a17-4f49-a50a-3826ba26db3c",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "85ce7bd2-e6f3-47f2-9028-26d447d91104",
+                    "path": "<FakeTrackedHandDevice>/leftRingTip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "RingTip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7d6e4fbf-cdc6-4d6d-8c90-800f5797e712",
+                    "path": "<FakeTrackedHandDevice>/leftMiddleTip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "MiddleTip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "23a7e9eb-0608-442b-b70f-b2a11192a87a",
+                    "path": "<FakeTrackedHandDevice>/leftIndexTip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "IndexTip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b8a2152f-3cf0-40bc-a9d6-6743c25ad1c3",
+                    "path": "<FakeTrackedHandDevice>/leftThumbTip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "ThumbTip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0f28c71b-067d-4603-803a-782d02dabf5e",
+                    "path": "<FakeTrackedHandDeviceLeft>/pinkyStart",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "PinkyStart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2bc3d63f-7805-43e7-abe6-d65f7697a21b",
+                    "path": "<FakeTrackedHandDevice>/leftRingStart",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "RingStart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fc27d278-e632-4b61-ae5a-2324dd3b5d65",
+                    "path": "<FakeTrackedHandDevice>/leftMiddleStart",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "MiddleStart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e039235b-609d-4168-aabb-38f43e7db3b4",
+                    "path": "<FakeTrackedHandDevice>/leftIndexStart",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "IndexStart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "af3d5430-054c-4fe2-ab11-43bc2f1aa139",
+                    "path": "<FakeTrackedHandDevice>/leftThumbStart",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "ThumbStart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "222e0be1-85f9-4eac-9637-39bbdefc60ed",
+                    "path": "<FakeTrackedHandDevice>/leftWristAtThumbSide",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "WristAtThumbSide",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a06568fc-b6ee-42b6-8e87-5723ebfd80ec",
+                    "path": "<FakeTrackedHandDevice>/leftWristAtPinkySide",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "WristAtPinkySide",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1b1b257d-3a1c-41a5-a256-29fa3e83af63",
+                    "path": "<FakeTrackedHandDevice>/leftArmAtPinkyElbowSide",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "ArmAtPinkyElbowSide",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d59c2960-1cfd-4e29-a48f-dc5ff214cc38",
+                    "path": "<FakeTrackedHandDevice>/leftArmAtThumbElbowSide",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "ArmAtThumbElbowySide",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6048d68f-2acd-43d3-bd4c-795880c26c64",
+                    "path": "<FakeTrackedHandDeviceLeft>/pinkyTip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "PinkyTip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "BodyPointWorldSpace",
+            "id": "431c9452-2388-4682-8c0d-f28d46953177",
+            "actions": [
+                {
+                    "name": "EyeRight",
+                    "type": "PassThrough",
+                    "id": "a5014963-6281-46b3-af2f-ae37b6f72e57",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "EyeLeft",
+                    "type": "PassThrough",
+                    "id": "a1c48aa7-3d48-4646-9b4b-1d758b55333b",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "EarRight",
+                    "type": "PassThrough",
+                    "id": "96d7f6e3-31e1-4109-b4ae-15d6a3e421ba",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "EarLeft",
+                    "type": "PassThrough",
+                    "id": "06d0dd5e-5749-4e63-98fd-7c5a4cfceeb1",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Nose",
+                    "type": "PassThrough",
+                    "id": "9996fe6a-2761-4736-aa21-5cdb0c6e4a38",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "UpperNeck",
+                    "type": "PassThrough",
+                    "id": "c9e0f006-0444-4df4-9163-1dc0f74423ad",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LowerNeck",
+                    "type": "PassThrough",
+                    "id": "21394297-173f-4667-a43c-32f51076a05f",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ClavicleRight",
+                    "type": "PassThrough",
+                    "id": "407c51fd-f5c5-440e-bf26-58c3e1dcfe2c",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ClavicleLeft",
+                    "type": "PassThrough",
+                    "id": "215458de-418d-46b1-9081-4f88b4e41a30",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ShoulderRight",
+                    "type": "PassThrough",
+                    "id": "838a8aa5-3f23-4107-a7a9-a9545da425f9",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ShoulderLeft",
+                    "type": "PassThrough",
+                    "id": "613e4090-9d7c-48fa-b032-f26cbb084a31",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ElbowRight",
+                    "type": "PassThrough",
+                    "id": "e2a11c15-8dba-453d-943c-e0905ad2adcd",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ElbowLeft",
+                    "type": "PassThrough",
+                    "id": "0ce259b4-260b-4926-99e2-330b8183ed66",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "WristRight",
+                    "type": "PassThrough",
+                    "id": "4b3cdd86-3759-4b25-9e63-3897a7fa7b27",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "WristLeft",
+                    "type": "PassThrough",
+                    "id": "ce50dac5-b53f-4eb3-afaa-b7d4c3550307",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "HandRight",
+                    "type": "PassThrough",
+                    "id": "5a3dc2ba-ba77-45b8-a13b-6ed088694fb2",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "HandLeft",
+                    "type": "PassThrough",
+                    "id": "2708754a-e09c-495c-a51a-21476c9b781f",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "HandTipRight",
+                    "type": "PassThrough",
+                    "id": "6e8501d3-63c2-48c0-9e7d-c2184137ef64",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "HandTipLeft",
+                    "type": "PassThrough",
+                    "id": "734f1ed2-3fc8-441f-acf4-d615fbe2de44",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "HandThumbRight",
+                    "type": "PassThrough",
+                    "id": "dab8ccdb-7cac-4631-a11b-b97c3151666a",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "HandThumbLeft",
+                    "type": "PassThrough",
+                    "id": "694b963f-75cb-419f-8b4d-3261dbc97b89",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SpineChestUp",
+                    "type": "PassThrough",
+                    "id": "e82532f1-a093-4a35-b0ab-84f32ae37914",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SpineNavalMiddle",
+                    "type": "PassThrough",
+                    "id": "c54640ad-ab83-44b8-be4f-96c2a98b56be",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SpinePelvisDown",
+                    "type": "PassThrough",
+                    "id": "cc5f9c9d-29dd-4b10-ad37-b69d8d0f36bc",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "HipRight",
+                    "type": "PassThrough",
+                    "id": "e27c8029-c926-4187-9a78-1219d3f200fe",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "HipLeft",
+                    "type": "PassThrough",
+                    "id": "7c822d30-46dd-43f5-9c9e-d093f37e8aab",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "KneeRight",
+                    "type": "PassThrough",
+                    "id": "cebc0986-babe-4d2a-83a2-8addec4ef8a6",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "KneeLeft",
+                    "type": "PassThrough",
+                    "id": "379581d2-f495-45ee-98e1-190fbef9f456",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "AnkleRight",
+                    "type": "PassThrough",
+                    "id": "34816897-303a-46ba-abc6-578d02027ea5",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "AnkleLeft",
+                    "type": "PassThrough",
+                    "id": "c1295dc0-1f6a-41d2-a3c5-a0fb806fdba2",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "FootRight",
+                    "type": "PassThrough",
+                    "id": "d0da5a31-0d2e-4eef-83ec-570d0742ca4e",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "FootLeft",
+                    "type": "PassThrough",
+                    "id": "3c8b64c1-dc44-486c-889d-9640234768c6",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b6747a84-bfa9-4c88-ac24-99e162090641",
+                    "path": "<FakeTrackedBodyDevice>/leftEye",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "EyeRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0faf721e-3367-48f7-8bd1-e1efefea6ea2",
+                    "path": "<FakeTrackedBodyDevice>/rightEye",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "EyeLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "21cdfb7c-5efb-4d1d-a501-d1c727c28f88",
+                    "path": "<FakeTrackedBodyDevice>/rightEar",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "EarRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fef31477-03ce-428b-b21f-f18edae4ec51",
+                    "path": "<FakeTrackedBodyDevice>/leftEar",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "EarLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d5a5bee8-0f46-4a0d-8732-631e849488f0",
+                    "path": "<FakeTrackedBodyDevice>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "ShoulderRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "35e54f40-2f57-4334-a26e-a9745af71d9c",
+                    "path": "<FakeTrackedBodyDevice>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "ShoulderLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6c4c6200-69bc-412c-ac47-59c483500fd3",
+                    "path": "<FakeTrackedBodyDevice>/rightHip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "HipRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "09d88e50-8352-435a-9c94-86c6e81d202e",
+                    "path": "<FakeTrackedBodyDevice>/leftHip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "HipLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a81cae1a-f557-4950-a016-afdec07a077f",
+                    "path": "<FakeTrackedBodyDevice>/rightHand",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "WristRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fa95ccd6-6961-42ea-9e69-d01bb530c97f",
+                    "path": "<FakeTrackedBodyDevice>/leftHand",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "WristLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0017c1e3-1b6a-4e2c-b8e7-a0498754eacc",
+                    "path": "<FakeTrackedBodyDevice>/rightAnkle",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "AnkleRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5988ce68-f077-4c64-a61d-eac265104bac",
+                    "path": "<FakeTrackedBodyDevice>/leftAnkle",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "AnkleLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bab05fa1-0f92-4bbf-898b-ce287f151921",
+                    "path": "<FakeTrackedBodyDevice>/rightHand",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "HandRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "478451b6-3d8c-4da8-941f-bb6b733fddd3",
+                    "path": "<FakeTrackedBodyDevice>/leftHand",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AbstractBodyTracking",
+                    "action": "HandLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard&Mouse",
+            "bindingGroup": "Keyboard&Mouse",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Gamepad",
+            "bindingGroup": "Gamepad",
+            "devices": [
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Touch",
+            "bindingGroup": "Touch",
+            "devices": [
+                {
+                    "devicePath": "<Touchscreen>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Joystick",
+            "bindingGroup": "Joystick",
+            "devices": [
+                {
+                    "devicePath": "<Joystick>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "XR",
+            "bindingGroup": "XR",
+            "devices": [
+                {
+                    "devicePath": "<XRController>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "AbstractBodyTracking",
+            "bindingGroup": "AbstractBodyTracking",
+            "devices": [
+                {
+                    "devicePath": "<FakeTrackedHandDeviceLeft>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<FakeTrackedHandDeviceRight>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<FakeTrackedBodyDevice>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
